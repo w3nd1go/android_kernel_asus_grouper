@@ -30,8 +30,6 @@
 #include <linux/workqueue.h>
 #include <linux/input.h>
 #ifndef CONFIG_HAS_EARLYSUSPEND
-#include <linux/lcd_notify.h>
-#else
 #include <linux/earlysuspend.h>
 #endif
 #include <linux/hrtimer.h>
